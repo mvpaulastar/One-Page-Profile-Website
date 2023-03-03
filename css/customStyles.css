@@ -1,0 +1,35 @@
+@keyframes rotation{
+	from{
+		transform: rotate(0deg);
+	}to{
+		transform:rotate(359deg);
+	}
+}
+
+@keyframes shake{
+    0%{
+      transform: translateX(0)
+    }
+    25%{
+      transform: translateY(10px);
+    }
+      
+    50%{
+      transform: translateY(-10px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+  }
+
+.fade-in{
+	animation: fadeIn 2s;
+}
+
+.shake div:hover{
+    animation:  shake 0.8s  ;
+  }
+
+.rotate img:hover{
+	animation: rotation 1s linear;
+}
