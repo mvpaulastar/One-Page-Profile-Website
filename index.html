@@ -9,47 +9,6 @@
     <title>Paula Sirisumpund</title>
 </head>
 <body>
-    <!--
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-        <div class="container-fluid">
-            <a href="#aboutMe" class="navbar-brand">
-                <span class="fw-bold text-secondary">Paula Sirisumpund</span>
-            </a>
-            <!--Toggle button for mobile nav->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
-            aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse justify-content-center align-center">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#aboutMe" class="nav-link">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#skills" class="nav-link">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#education" class="nav-link">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#projects" class="nav-link">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#courses" class="nav-link">Courses</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#employment" class="nav-link">Employment</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#hobbies" class="nav-link">Hobbies</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav> -->
-
     <!--About Me Section-->
     <section id="aboutMe">
         <div class="container-fluid my-5">
@@ -68,11 +27,11 @@
 
                 </div>
                 <div class="col-md-5 text-center d-none d-md-block">
-                    <img src="images/paula-sirisumpund.png" alt="Portrait of Me" class="img-fluid img-thumbnail rounded-circle">
+                    <img src="images/paula-sirisumpund.png" alt="Portrait of Me" class="img-fluid h-100 img-thumbnail rounded-circle">
                 </div>
             </div>
 
-            <div class="row justify-content-center align-content-center">
+            <div class="row justify-content-center align-content-center my-5">
                 <div class="display-6 text-center">
                     <p class="text-muted">Need to see some work or get in contact?</p> 
                 </div>
@@ -110,8 +69,8 @@
                 <h2>Skills</h2>
             </div>
 
-            <div class="row justify-content-center my-3">
-                <div class="col-md-4">
+            <div class="row justify-content-center align-content-center my-3">
+                <div class="col-md-4 text-center">
                     <div class="list-group list-group-flush">
                         <div class="list-group-item py-3">
                             <h5 class="mb-1">Java</h5>
@@ -182,9 +141,13 @@
                                 <i class="bi bi-star-fill"></i>
                                 <i class="bi bi-star"></i>
                             </div>
-                            <small class="text-muted">pointers</small>
+                            <small class="text-muted">general uses, sockets, operating systems</small>
                         </div>
 
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="list-group list-group-flush">
                         <div class="list-group-item py-3">
                             <h5 class="mb-1">Python</h5>
                             <div class="pb-2">
@@ -203,7 +166,7 @@
                                 <i class="bi bi-star-fill"></i>
                                 <i class="bi bi-star-fill"></i>
                                 <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-half"></i>
+                                <i class="bi bi-star"></i>
                                 <i class="bi bi-star"></i>
                             </div>
                             <small class="text-muted">node.js, promises, DOM</small>
@@ -288,188 +251,191 @@
 
     <!--Projects Section-->
     <section id="projects">
-        <div class="container my-5">
+        <div class="container-fluid my-5">
             <div class="text-center">
                 <h2>Projects</h2>
                 <a href="https://github.com/mvpaulastar" class="text-decoration-none">
                     Github <i class="bi bi-github"></i>
                 </a>
             </div>
+
             <div class="row justify-content-center align-content-center my-5">
-                <!--Accordion-->
-                <div class="accordion" id="projects-accordion">
-                    <!--This Website-->
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="project-heading-1">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#project-1"
-                            aria-expanded="true" aria-controls="project-1">
-                                One-Page Profile Website
-                            </button>
-                        </h2>
+                <div class="col-md-6">
+                     <!--Accordion-->
+                    <div class="accordion" id="projects-accordion">
+                        <!--This Website-->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="project-heading-1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#project-1"
+                                aria-expanded="true" aria-controls="project-1">
+                                    One-Page Profile Website
+                                </button>
+                            </h2>
 
-                        <div id="project-1" class="accordion-collapse collapse" aria-labelledby="project-heading-1" data-bs-parent="#projects-accordion">
-                            <div class="accordion-body">
-                                <p class="lead">One-Page Website that acts as my profile WiP</p>
-                                <a href="https://github.com/mvpaulastar/One-Page-Profile-Website" class="text-decoration-none">
-                                    Repo <i class="bi bi-github"></i>
-                                </a>
-                                <p class="lead">Utilizing:</p>
-                                <ul class="single-list">
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>Bootstrap 5.2.3</li>
-                                    <li>Eventually Javascript!</li>
-                                </ul>
+                            <div id="project-1" class="accordion-collapse collapse" aria-labelledby="project-heading-1" data-bs-parent="#projects-accordion">
+                                <div class="accordion-body">
+                                    <p class="lead">One-Page Website that acts as my profile WiP</p>
+                                    <a href="https://github.com/mvpaulastar/One-Page-Profile-Website" class="text-decoration-none">
+                                        Repo <i class="bi bi-github"></i>
+                                    </a>
+                                    <p class="lead">Utilizing:</p>
+                                    <ul class="single-list">
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>Bootstrap 5.2.3</li>
+                                        <li>Eventually Javascript!</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!--Multi-Page Website-->
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="project-heading-2">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#project-2"
-                            aria-expanded="true" aria-controls="project-2">
-                                Multi-Page Profile Website
-                            </button>
-                        </h2>
-                        <div id="project-2" class="accordion-collapse collapse" aria-labelledby="project-heading-2" data-bs-parent="#projects-accordion">
-                            <div class="accordion-body">
-                                <p class="lead">Multi-Page Website that acts as my profile, WiP</p>
-                                <a href="https://github.com/mvpaulastar/Website" class="text-decoration-none">
-                                    Repo <i class="bi bi-github"></i>
-                                </a>
-                                <p class="lead">Utilizing:</p>
-                                <ul class="single-list">
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>Bootstrap 5.2.3</li>
-                                    <li>Eventually Javascript!</li>
-                                </ul>
+                        <!--Multi-Page Website-->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="project-heading-2">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#project-2"
+                                aria-expanded="true" aria-controls="project-2">
+                                    Multi-Page Profile Website
+                                </button>
+                            </h2>
+                            <div id="project-2" class="accordion-collapse collapse" aria-labelledby="project-heading-2" data-bs-parent="#projects-accordion">
+                                <div class="accordion-body">
+                                    <p class="lead">Multi-Page Website that acts as my profile, WiP</p>
+                                    <a href="https://github.com/mvpaulastar/Website" class="text-decoration-none">
+                                        Repo <i class="bi bi-github"></i>
+                                    </a>
+                                    <p class="lead">Utilizing:</p>
+                                    <ul class="single-list">
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>Bootstrap 5.2.3</li>
+                                        <li>Eventually Javascript!</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!--Minigames-->
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="project-heading-3">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#project-3"
-                            aria-expanded="true" aria-controls="project-3">
-                                Minigames App
-                            </button>
-                        </h2>
+                        <!--Minigames-->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="project-heading-3">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#project-3"
+                                aria-expanded="true" aria-controls="project-3">
+                                    Minigames App
+                                </button>
+                            </h2>
 
-                        <div id="project-3" class="accordion-collapse collapse" aria-labelledby="project-heading-3" data-bs-parent="#projects-accordion">
-                            <div class="accordion-body">
-                                <p class="lead">Sudoku and Tic-Tac-Toe with a fully functional leaderboard</p>
-                                <p>Worked on as part of a group</p>
-                                <a href="https://github.com/mvpaulastar/Minigames" class="text-decoration-none">
-                                    Repo <i class="bi bi-github"></i>
-                                </a>
-                                <p class="lead">Utilizing:</p>
-                                <ul class="single-list">
-                                    <li>Java 8</li>
-                                    <li>JavaFX</li>
-                                    <li>UML diagrams</li>
-                                </ul>
+                            <div id="project-3" class="accordion-collapse collapse" aria-labelledby="project-heading-3" data-bs-parent="#projects-accordion">
+                                <div class="accordion-body">
+                                    <p class="lead">Sudoku and Tic-Tac-Toe with a fully functional leaderboard</p>
+                                    <p>Worked on as part of a group</p>
+                                    <a href="https://github.com/mvpaulastar/Minigames" class="text-decoration-none">
+                                        Repo <i class="bi bi-github"></i>
+                                    </a>
+                                    <p class="lead">Utilizing:</p>
+                                    <ul class="single-list">
+                                        <li>Java 8</li>
+                                        <li>JavaFX</li>
+                                        <li>UML diagrams</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!--Thousand Hands-->
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="project-heading-4">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#project-4"
-                            aria-expanded="true" aria-controls="project-4">
-                                Thousand Hands App
-                            </button>
-                        </h2>
+                        <!--Thousand Hands-->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="project-heading-4">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#project-4"
+                                aria-expanded="true" aria-controls="project-4">
+                                    Thousand Hands App
+                                </button>
+                            </h2>
 
-                        <div id="project-4" class="accordion-collapse collapse" aria-labelledby="project-heading-4" data-bs-parent="#projects-accordion">
-                            <div class="accordion-body">
-                                <p class ="lead">Inventory management application where users donate/retrieve items</p>
-                                <a href="https://github.com/mvpaulastar/ThousandHandsApp" class="text-decoration-none">
-                                    Repo <i class="bi bi-github"></i>
-                                </a>
-                                <p class="lead">Utilizing:</p>
-                                <ul class="single-list">
-                                    <li>Java 8</li>
-                                    <li>JavaFX</li>
-                                    <li>Junit Testing</li>
-                                </ul>
+                            <div id="project-4" class="accordion-collapse collapse" aria-labelledby="project-heading-4" data-bs-parent="#projects-accordion">
+                                <div class="accordion-body">
+                                    <p class ="lead">Inventory management application where users donate/retrieve items</p>
+                                    <a href="https://github.com/mvpaulastar/ThousandHandsApp" class="text-decoration-none">
+                                        Repo <i class="bi bi-github"></i>
+                                    </a>
+                                    <p class="lead">Utilizing:</p>
+                                    <ul class="single-list">
+                                        <li>Java 8</li>
+                                        <li>JavaFX</li>
+                                        <li>Junit Testing</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!--Market Prediction-->
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="project-heading-5">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#project-5"
-                            aria-expanded="true" aria-controls="project-5">
-                                Ubiquant Market Prediction
-                            </button>
-                        </h2>
+                        <!--Market Prediction-->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="project-heading-5">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#project-5"
+                                aria-expanded="true" aria-controls="project-5">
+                                    Ubiquant Market Prediction
+                                </button>
+                            </h2>
 
-                        <div id="project-5" class="accordion-collapse collapse" aria-labelledby="project-heading-5" data-bs-parent="#projects-accordion">
-                            <div class="accordion-body">
-                                <p class="lead">Logistic Regression Model used in predicting stock market trend</p>
-                                <a href="https://github.com/mvpaulastar/AI_LogisticRegression_Project" class="text-decoration-none">
-                                    Repo <i class="bi bi-github"></i>
-                                </a>
-                                <p class="lead">Utilizing:</p>
-                                <ul class="single-list">
-                                    <li>Python</li>
-                                    <li>Pandas</li>
-                                    <li>Numpy</li>
-                                    <li>Matplotlib</li>
-                                    <li>sklearn</li>
-                                    <li>Data from Kaggle competition of the same name</li>
-                                </ul>
+                            <div id="project-5" class="accordion-collapse collapse" aria-labelledby="project-heading-5" data-bs-parent="#projects-accordion">
+                                <div class="accordion-body">
+                                    <p class="lead">Logistic Regression Model used in predicting stock market trend</p>
+                                    <a href="https://github.com/mvpaulastar/AI_LogisticRegression_Project" class="text-decoration-none">
+                                        Repo <i class="bi bi-github"></i>
+                                    </a>
+                                    <p class="lead">Utilizing:</p>
+                                    <ul class="single-list">
+                                        <li>Python</li>
+                                        <li>Pandas</li>
+                                        <li>Numpy</li>
+                                        <li>Matplotlib</li>
+                                        <li>sklearn</li>
+                                        <li>Data from Kaggle competition of the same name</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!--Snake-->
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="project-heading-6">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#project-6"
-                            aria-expanded="true" aria-controls="project-6">
-                                Snake
-                            </button>
-                        </h2>
+                        <!--Snake-->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="project-heading-6">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#project-6"
+                                aria-expanded="true" aria-controls="project-6">
+                                    Snake
+                                </button>
+                            </h2>
 
-                        <div id="project-6" class="accordion-collapse collapse" aria-labelledby="project-heading-6" data-bs-parent="#projects-accordion">
-                            <div class="accordion-body">
-                                <p class="lead">A simple snake game in python, reviewing python fundamentals</p>
-                                <a href="https://github.com/mvpaulastar/Snake-" class="text-decoration-none">
-                                    Repo <i class="bi bi-github"></i>
-                                </a>
-                                <p class="lead">Utilizing:</p>
-                                <ul class="single-list">
-                                    <li>Python</li>
-                                    <li>Pygame</li>
-                                    <li>Free assets from itch.io</li>
-                                </ul>
+                            <div id="project-6" class="accordion-collapse collapse" aria-labelledby="project-heading-6" data-bs-parent="#projects-accordion">
+                                <div class="accordion-body">
+                                    <p class="lead">A simple snake game in python, reviewing python fundamentals</p>
+                                    <a href="https://github.com/mvpaulastar/Snake-" class="text-decoration-none">
+                                        Repo <i class="bi bi-github"></i>
+                                    </a>
+                                    <p class="lead">Utilizing:</p>
+                                    <ul class="single-list">
+                                        <li>Python</li>
+                                        <li>Pygame</li>
+                                        <li>Free assets from itch.io</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!--Questbot-->
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="project-heading-7">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#project-7"
-                            aria-expanded="true" aria-controls="project-7">
-                                Questbot
-                            </button>
-                        </h2>
+                        <!--Questbot-->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="project-heading-7">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#project-7"
+                                aria-expanded="true" aria-controls="project-7">
+                                    Questbot
+                                </button>
+                            </h2>
 
-                        <div id="project-7" class="accordion-collapse collapse" aria-labelledby="project-heading-7" data-bs-parent="#projects-accordion">
-                            <div class="accordion-body">
-                                <p class = "lead"> A discord bot for managing quests and characters for Dungeons and Dragons, first foray into javascript, node.js</p>
-                                <a href="https://github.com/mvpaulastar/Questbot" class="text-decoration-none">
-                                    Repo <i class="bi bi-github"></i>
-                                </a>
-                                <p class = "lead"> Utilizing:</p>
-                                <ul class = "single-list">
-                                    <li>Node.js runtime version: 16.10.0</li>
-                                    <li>Discord.js version: 13.2.0</li>
-                                    <li>Sequelize version: 6.8.0</li>
-                                    <li>Sqlite3: 5.0.2</li>
-                                    <li>Javascript</li>
-                                </ul>
+                            <div id="project-7" class="accordion-collapse collapse" aria-labelledby="project-heading-7" data-bs-parent="#projects-accordion">
+                                <div class="accordion-body">
+                                    <p class = "lead"> A discord bot for managing quests and characters for Dungeons and Dragons, first foray into javascript, node.js</p>
+                                    <a href="https://github.com/mvpaulastar/Questbot" class="text-decoration-none">
+                                        Repo <i class="bi bi-github"></i>
+                                    </a>
+                                    <p class = "lead"> Utilizing:</p>
+                                    <ul class = "single-list">
+                                        <li>Node.js runtime version: 16.10.0</li>
+                                        <li>Discord.js version: 13.2.0</li>
+                                        <li>Sequelize version: 6.8.0</li>
+                                        <li>Sqlite3: 5.0.2</li>
+                                        <li>Javascript</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -483,24 +449,57 @@
         <div class="container-fluid my-5">
             <div class="text-center">
                 <h2>Courses</h2>
+                <p class="lead text-muted">Some key courses I've taken</p>
             </div>
 
             <div class="row justify-content-center align-content-center my-5">
-                <div class="col text-center">
+                <div class="col-md-6 text-center">
+                    <div class="list-group list-group-flush">
+                        <div class="list-group-item text-center">
+                            <h5 class="mb-1">Object Oriented Systems</h5>
+                            <small>Java UML, common design patterns, SOLID, GRASP</small>
+                            <br>
+                            <small>building java projects using common design patterns</small>
+                        </div>
+                        <div class="list-group-item text-center">
+                            <h5 class="mb-1">Database Systems</h5>
+                            <small>relational databases, SQL queries</small>
+                        </div>
+                        <div class="list-group-item text-center">
+                            <h5 class="mb-1">Systems Programming</h5>
+                            <small>linux shell, python scripting, grep, sed, awk, sockets, ipc </small>
+                        </div>
+                        <div class="list-group-item text-center">
+                            <h5 class="mb-1">Artificial Intelligence</h5>
+                            <small>python, numpy, pandas, matplotlib, sklearn, training models, practicing different ai techniques</small>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!--Employment section-->
-    <section id="employment">
-        <div class="container-fluid my-5">
-            <div class="text-center">
-                <h2>Employment</h2>
-            </div>
-
-            <div class="row justify-content-center align-content-center my-5">
-                <div class="col text-center">
+                <div class="col-md-6 text-center">
+                    <div class="list-group list-group-flush">
+                        <div class="list-group-item text-center">
+                            <h5 class="mb-1">Software Engineering</h5>
+                            <small>review of different software development practices such as agile, scrum, waterfall</small>
+                            <br>
+                            <small>design patterns, review of best coding practices, and methodologies</small>
+                        </div>
+                        <div class="list-group-item text-center">
+                            <h5 class="mb-1">Data Structures</h5>
+                            <small>implementing and review of all common data structures</small>
+                            <br>
+                            <small>hash tables, b-trees, linked lists, stacks, graphs, etc</small>
+                        </div>
+                        <div class="list-group-item text-center">
+                            <h5 class="mb-1">Application Programming</h5>
+                            <small>Java application programming</small>
+                            <br>
+                            <small>junit testing, javafx, models</small>
+                        </div>
+                        <div class="list-group-item text-center">
+                            <h5 class="mb-1">Data Science</h5>
+                            <small>python, pandas, numpy, matplotlib, manipulating datasets</small>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -514,8 +513,100 @@
             </div>
 
             <div class="row justify-content-center align-content-center my-5">
-                <div class="col text-center">
+                <div class="col-md-5 text-center text-md-start py-5">
+                    <div class="list-group list-group-flush">
+                        <div class="list-group-item text-center">
+                            <h5 class="mb-1">Dungeons and Dragons</h5>
+                        </div>
+                        <div class="list-group-item text-center">
+                            <h5 class="mb-1">Miniature Painting</h5>
+                        </div>
+                        <div class="list-group-item text-center">
+                            <h5 class="mb-1">Video, Card, and Tabletop Games</h5>
+                        </div>
+                        <div class="list-group-item text-center">
+                            <h5 class="mb-1">Creating projects and helper tools for my other hobbies!</h5>
+                        </div>
+                    </div>
                 </div>
+
+                <!--Hobby Image Carousel-->
+                <div class="col-md-5 d-none d-md-block">
+                    <div id="hobbyCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#hobbyCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#hobbyCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#hobbyCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#hobbyCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#hobbyCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#hobbyCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                            <button type="button" data-bs-target="#hobbyCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                            <button type="button" data-bs-target="#hobbyCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/hobbyCarousel/buzz.jpg" alt="Buzz">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3 class="bg-secondary rounded-pill">Space Marine with Lightyear colors</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/hobbyCarousel/morven.jpg" alt="Morven Vahl">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3 class="bg-secondary rounded-pill">Morvenn Vahl</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/hobbyCarousel/SoB.jpg" alt="Sister of Battle">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3 class="bg-secondary rounded-pill">Sister of Battle of the Ebon Chalice</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/hobbyCarousel/SoB2.jpg" alt="Sister of Battle">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3 class="bg-secondary rounded-pill">Sister of Battle of the Ebon Chalice</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/hobbyCarousel/SM.jpg" alt="Space Marine">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3 class="bg-secondary rounded-pill">Some Space Marines</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/hobbyCarousel/Mando.jpg" alt="The Mandalorian">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3 class="bg-secondary rounded-pill">The Mandalorian</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/hobbyCarousel/HeroQuest.jpg" alt="Hero Quest">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3 class="bg-secondary rounded-pill">Hero Quest Chaos Knights</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/hobbyCarousel/dnd.jpg" alt="Minotaur and Skeleton">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3 class="bg-secondary rounded-pill">Minotaur and Skeleton Knight</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#hobbyCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#hobbyCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <h2>The cool thing is alot of my hobbies overlap with each other!</h2>
             </div>
         </div>
     </section>
@@ -550,15 +641,13 @@
                         <a href="#courses" class="nav-link">Courses</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#employment" class="nav-link">Employment</a>
-                    </li>
-                    <li class="nav-item">
                         <a href="#hobbies" class="nav-link">Hobbies</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
     <script src="js/bootstrap.js"></script>
 </body>
 </html>
